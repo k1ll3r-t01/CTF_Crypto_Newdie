@@ -1,5 +1,5 @@
-## Writeup rot13
-đây là thuật toán thay thế chữ cái đơn giản, ROT13 sử dụng xoay vòng một nửa bảng chữ cái (13 chữ cái)
+## Writeup ROT13
+Đây là thuật toán thay thế chữ cái đơn giản, `ROT13` sử dụng xoay vòng một nửa bảng chữ cái (13 chữ cái)
 VD: 'c' rot13 -> 'p' rot13 -> p
 > Đề bài: 
 Cryptography can be easy, do you know what ROT13 is? cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}
@@ -8,7 +8,7 @@ Solution:
 
 Sử dụng code đơn giản để xoay vòng 13 ký tự:
 ```python
-flag_rot13 = 'cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}'
+flag_rot13 ='cvpbPGS{arkg_gvzr_V\'yy_gel_2_ebhaqf_bs_ebg13_uJdSftmh}'
 flag = ''
 offset = 13
 
@@ -21,3 +21,9 @@ for char in flag_rot13:
         flag+=char
 
 print(flag)
+
+
+```
+
+> Ra được flag: 
+`picoCTF{next_time_I'll_try_2_rounds_of_rot13_hWqFsgzu}`

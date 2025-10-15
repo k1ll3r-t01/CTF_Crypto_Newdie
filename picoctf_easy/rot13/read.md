@@ -21,3 +21,7 @@ for char in flag_rot13:
         flag+=char
 
 print(flag)
+
+```
+> Ra được flag:
+`picoCTF{not_too_bad_of_a_problem}`

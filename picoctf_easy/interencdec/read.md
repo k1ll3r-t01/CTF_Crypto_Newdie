@@ -5,11 +5,11 @@ Download the file `here`.
 Hint: Engaging in various decoding processes is of utmost importance
 
 ### Solution
-Ta nhận thấy được đây là các ký tự được mã hóa base64.
+- Ta nhận thấy được đây là các ký tự được mã hóa base64.
 `YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclh6ZzVNR3N5TXpjNWZRPT0nCg==`
-Ta thử decode ra và được string cũng được mã hóa base64.
+- Ta thử decode ra và được string cũng được mã hóa base64.
 `d3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrXzg5MGsyMzc5fQ==`
-Ta tiếp tục và được:
+- Ta tiếp tục và được:
 `wpjvJAM{jhlzhy_k3jy9wa3k_890k2379}`
 Code:
 ```python

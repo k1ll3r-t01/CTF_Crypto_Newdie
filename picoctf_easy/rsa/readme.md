@@ -1,6 +1,6 @@
 # Writeup `EVEN RSA CAN BE BROKEN`
-> #### Mục tiêu:
-> Tìm được lõ hỗng qua cách tạo khóa bí mật _privat qua cod được cho ở `encrypt.py`. Từ đó giải mã được khóa RSA.
+> ### Mục tiêu:
+> #### Tìm được lõ hỗng qua cách tạo khóa bí mật _privat qua cod được cho ở `encrypt.py`. Từ đó giải mã được khóa RSA.
 
 ---
 ### Solution
@@ -34,7 +34,7 @@ Mà `N` chẵn nên ta có 1 trong 2 số chính là số 2
 ```python
 phi_N = (p-1)(q-1) = N/2 -1
 ```
-Ta tiếp tục sử dụng các hàm để tìm ra khóa `d` bị ẩn dấu.
+Ta tiếp tục sử dụng các hàm ở file encryp.py để tìm ra khóa `d` bị ẩn dấu.
 ```python
 from Crypto.Util.number import long_to_bytes
 
